@@ -1,0 +1,13 @@
+.box_lower{
+    height: 87%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius:0rem 0rem 2.5rem 2.5rem;
+    padding-left: 25px;
+    border: 2px solid black;
+    border-top: 0px;
+    overflow: hidden;
+}

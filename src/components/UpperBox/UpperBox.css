@@ -1,0 +1,44 @@
+.box_upper{
+    height: 13%;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius:2.5rem 2.5rem 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 10vw ;
+    color: white;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 10vw ;
+    color: white;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 10vw ;
+    color: white
+}
+.small_box{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    border-radius: 5px;
+    margin: 20px;
+}

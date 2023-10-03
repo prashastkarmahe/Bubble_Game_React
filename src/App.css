@@ -1,0 +1,8 @@
+.box{
+    height: 80vh;
+    width: 80vw;
+    background-color: bisque;
+    border-radius:2.5rem ;
+    box-shadow: 2px 2px 20px 5px rgba(18, 2, 82, 0.661);
+    
+}

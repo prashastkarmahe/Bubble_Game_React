@@ -1,0 +1,19 @@
+.bubble{
+    color: rgb(12, 24, 131);
+    height: 6.5vh;
+    width: 6.5vh;
+    margin: 10px;
+    background-color: rgb(176, 231, 98);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
+}
+.bubble:hover{
+    background-color: rgba(25, 146, 136, 0.973);
+    cursor: pointer;
+    -ms-transform: sclae(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

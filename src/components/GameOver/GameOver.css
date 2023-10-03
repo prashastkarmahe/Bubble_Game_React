@@ -1,0 +1,29 @@
+.game-over {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    animation: flash 1s ease-in-out;
+}
+.game-over h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.game-over p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0c5acf;
+    color: rgb(20, 240, 152);
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.restart-button:hover {
+    background-color: #18e926;
+}
